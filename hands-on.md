@@ -44,3 +44,26 @@ Your task:
 3. Create a text box, with a button labeled 'Search' next to it
 4. When the user has entered a **userId** in the text box and clicks on the 'Search' button, display the `firstName` and `lastName` of the user with that userId in any way you deem fit.
 
+# Q6 - Random Quote
+The URL `https://programming-quotes-api.herokuapp.com/quotes/random` will return a random quote each time it is called. 
+
+Change `index.html` and `script.js` such that whenever you click on the button, a new quote will be display. If the button is clicked multiple times, the new quote
+should replace the original quote.
+
+# Q7 - Simple list
+The URL `http://dummy.restapiexample.com/api/v1/employees` will return a list of employees as JSON objects. Write code such that when a button is pressed,  axios will load from
+the url `http://dummy.restapiexample.com/api/v1/employees` and present the name, age and salary of each employee in a list. See the sample output in `index.html`
+
+
+# Q8 - Random users
+The URL `https://randomuser.me/api/?results=10` will return a list of 10 random users. Your tasks are:
+
+1. Copy and paste `https://randomuser.me/api/?results=10` into the address bar of your browser. You will see the raw unformated JSON document. Copy all of this.
+
+2. Go to `http://www.jsonpathfinder.com` and paste in the copied JSON to the left hand side. On the right hand side, you will be able to expand the various keys to see what they contain
+
+3. Write code such that when a button is pressed, the code will fetch 10 random users from `https://randomuser.me/api/?results=10` and display all the ten users. For each user, display
+  
+   * First name and last name together
+   * The city which the user is from
+   * The medium-sized image of the user
