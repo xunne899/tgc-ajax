@@ -3,7 +3,6 @@ document.querySelector('#load-employee-btn').addEventListener('click', async fun
 
     let response = await axios.get('employees.json');
     updateDisplay(response.data.employees);
-   
 
 });
 
