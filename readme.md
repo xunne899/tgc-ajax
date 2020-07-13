@@ -55,3 +55,25 @@ let o = {
 // in Python we have to do: o["name"]
 console.log(o.name)
 ```
+
+# Fetching from API endpoint
+
+An API endpoint is just a URL. The special thing about such URLs is that they return a JSON file.
+
+The very act of accessing an endpoint is also known as **consuming** the end point.
+
+# Steps in using a new API
+
+1. Try it out in the browser address bar
+
+2. Copy and paste the raw response into JSON Pathfinder for analysis
+
+3. Decide the trigger to load the data (for example: click on a button)
+
+4. Create the event listener for the trigger and then use axios to fetch the data
+   (either promises or await/async)
+
+5. Once the data is loaded in, then act on it. Maybe:
+    * Append it to an existing element
+    * Replace an existing element
+    * Use it to change the attribute of an element etc.
