@@ -76,3 +76,20 @@ Consult: https://openlibrary.org/dev/docs/api/search
 Implement a form that asks the user to enter the title of a book
 Use the API to search for the title, and then display
 title, author and page count of the book.
+
+Hint: see `Sending query string parameters to the an API` in the `readme.md` file
+
+# Q10
+Consult: https://anapioficeandfire.com/Documentation and search inside the page
+(using CTRL + F) the section titled "List all characters". Within it, you will
+see the URL to GET from to get characters, and also a list of parameters you can
+provide to search by a specific character name.
+
+Create a text input field and ask the user to provide a name, and then 
+search for that character using axios and the endpoint documented above.
+
+For each search result, display its full name, year born, year died and culture.
+
+## Challenge ##
+For each search result, display all its known aliases, and  the title of all 
+the books this character appears in as a pov character.
