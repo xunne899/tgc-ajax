@@ -79,7 +79,7 @@ title, author and page count of the book.
 
 Hint: see `Sending query string parameters to the an API` in the `readme.md` file
 
-# Q10
+# Q9b Character Search
 Consult: https://anapioficeandfire.com/Documentation and search inside the page
 (using CTRL + F) the section titled "List all characters". Within it, you will
 see the URL to GET from to get characters, and also a list of parameters you can

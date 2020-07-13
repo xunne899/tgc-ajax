@@ -62,6 +62,24 @@ An API endpoint is just a URL. The special thing about such URLs is that they re
 
 The very act of accessing an endpoint is also known as **consuming** the end point.
 
+# Sending query string parameters to the an API
+
+Sometimes we can provide additional parameters to an API endpoint that is using the 
+the HTTP GET method. See example `04c-getting-from-omdb-api` for the full example.
+
+In the example below, the query string parameters are sent across within
+the second argument (object), contained in a key named `params`. Specifcally,
+the example code will send the parameters `s` and `apiKey` to the url.
+
+```
+ let response = await axios.get(url, {
+        'params': {
+            's':searchTerms,
+            'apiKey': apiKey
+        }
+    });
+```
+
 # Steps in using a new API
 
 1. Try it out in the browser address bar
