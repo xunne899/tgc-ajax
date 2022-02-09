@@ -3,6 +3,9 @@
 python3 -m http.server
 ```
 
+# Questions
+The questions are in the `hands-no` folder
+
 # Setting up Axios
 
 Be sure to include `axios.js` before our own `script.js` because our `script.js` will depend on `axios.js`
